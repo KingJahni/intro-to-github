@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="_}i79Xn+i%lAUQInwjyX">Player</variable><variable type="KIND_SpriteKind" id="X~IRpO4[*%xi#7h9+By(">Projectile</variable><variable type="KIND_SpriteKind" id="oP:M%0AJtfe4Hsz,L(T:">Food</variable><variable type="KIND_SpriteKind" id="a{uKxAG[nU[f*G48%i%p">Enemy</variable><variable id="cJ[rZi%@mi+A@*0#z/Li">Jahni</variable><variable id="8=Ll[,s_EMn1t3sk%]mL">mySprite</variable></variables><block type="pxt-on-start" id="=N]{M-G_5@.(qc[!6eUJ" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="rFBhrCu8da!zD04yb55L"><value name="color"><shadow type="colorindexpicker" id="F:Wo{0bUW`~xW!g,U_~{"><field name="index">9</field></shadow></value><next><block type="variables_set" id="n.11B5l_:+KpYr)prj3]"><field name="VAR" id="cJ[rZi%@mi+A@*0#z/Li">Jahni</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="t[Ua67uW8S)wNp9*5[Gq"><value name="img"><shadow type="screen_image_picker" id="ikh/y35vEif?Ck8h.N6]"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 2 2 2 2 2 e . . . . 
+. . . . . 2 2 2 2 d 2 2 e . . . 
+. . . . e 2 2 2 2 2 2 2 e . . . 
+. . . . e 2 2 2 2 2 2 2 e . . . 
+. . . . e 2 2 2 2 2 e f f c c . 
+. . . . e e 2 2 e f f f f b c . 
+. . e e e f e 2 2 b f f f d c . 
+. e e 2 2 d f e 2 1 1 1 1 b c . 
+. e e 2 2 d f e e e c c c . . . 
+. b 1 1 e e 2 2 e e c . . . . . 
+. . f d d 2 2 2 f f f d d . . . 
+e e f d d e e e . f f d d . . . 
+e e e f f f f f . . . . . . . . 
+e e . . . . f f f . . . . . . . 
+. . . . . . f f f f . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="4sm(6ds/e6d]nc#4#t2M"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesay" id=")FGHftW1#[d+8t:-~Eej"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="3!{oVtmo?`$,RpbViHm@"><field name="VAR" id="cJ[rZi%@mi+A@*0#z/Li">Jahni</field></block></value><value name="text"><shadow type="text" id=":_3*?4:g!0Et.2Gs3|w9"><field name="TEXT">GitHub is awesome!</field></shadow></value><next><block type="spritesetsetflag" id="f)YTb6}.51+gR`e^c5oI"><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get" id="hWF}u#^a?O[qqs`wb^4o"><field name="VAR" id="cJ[rZi%@mi+A@*0#z/Li">Jahni</field></block></value><value name="on"><shadow type="toggleOnOff" id="*1IS-{]mZ:z*KB9gc?5K"><field name="on">true</field></shadow></value><next><block type="game_control_sprite" id="$xN,,QR3NWovEUy3Ztcs"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="*Bv@v|$x+VZT[iW9L0JG"><field name="VAR" id="cJ[rZi%@mi+A@*0#z/Li">Jahni</field></block></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
